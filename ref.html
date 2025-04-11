@@ -1,0 +1,186 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourist & CultureConnect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }body {
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0077b6;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #023e8a;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: #0077b6;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1519881434699-94c016f2b4b9?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card i {
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #023e8a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tourist & CultureConnect</h1>
+    <p>Plan your perfect journey in one place</p>
+  </header>  <nav>
+    <a href="#travel">Travel</a>
+    <a href="#stay">Stay</a>
+    <a href="#guide">Guides</a>
+    <a href="#transport">Transport</a>
+    <a href="#food">Food</a>
+    <a href="#hospitals">Hospitals</a>
+  </nav>  <section class="hero">
+    <h1>Explore. Connect. Experience.</h1>
+    <p>Your personalized travel assistant for unforgettable adventures.</p>
+  </section>  <section class="section" id="travel">
+    <h2>Book Your Travel</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-bus"></i>
+        <h3>Bus Booking</h3>
+        <p>Reserve bus tickets with seat and class selection.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-train"></i>
+        <h3>Train Booking</h3>
+        <p>Choose between classes and book railway tickets easily.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-plane"></i>
+        <h3>Flight Booking</h3>
+        <p>Book domestic and international flights with class options.</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="stay">
+    <h2>Stay Booking</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-hotel"></i>
+        <h3>Hotels & Homestays</h3>
+        <p>Find the best accommodations to suit your budget.</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="guide">
+    <h2>Personal Guide</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-user-tie"></i>
+        <h3>Choose a Guide</h3>
+        <p>Select a personal guide for a local experience.</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="transport">
+    <h2>Local Transport</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-car"></i>
+        <h3>Book Local Transport</h3>
+        <p>Rent a cab, auto, or bike for your local travel needs.</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="food">
+    <h2>Restaurants</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-utensils"></i>
+        <h3>Find Places to Eat</h3>
+        <p>Discover restaurants and local delicacies around you.</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="hospitals">
+    <h2>Nearby Hospitals</h2>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-hospital"></i>
+        <h3>Emergency Assistance</h3>
+        <p>Locate the nearest hospitals and clinics instantly.</p>
+      </div>
+    </div>
+  </section>  <footer>
+    <p>&copy; 2025 Tourist & CultureConnect. All rights reserved.</p>
+  </footer>
+</body>
+</html>
