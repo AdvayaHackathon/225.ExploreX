@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Book Travel</h2>
+  <form>
+    <label>Mode:
+      <select name="mode">
+        <option>Flight</option>
+        <option>Train</option>
+        <option>Bus</option>
+      </select>
+    </label><br/>
+    <label>Class:
+      <select name="class">
+        <option>Economy</option>
+        <option>Business</option>
+        <option>First</option>
+      </select>
+    </label><br/>
+    <label>From: <input type="text" name="from" /></label><br/>
+    <label>To: <input type="text" name="to" /></label><br/>
+    <label>Date: <input type="date" name="date" /></label><br/>
+    <label>Cost: <input type="number" name="cost" /></label><br/>
+    <input type="submit" value="Book Now" />
+  </form>
+</body>
+</html>
